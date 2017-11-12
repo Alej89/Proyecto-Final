@@ -4,13 +4,13 @@ from email.MIMEText import MIMEText
 from email.MIMEImage import MIMEImage
 
 # Email you want to send the update from (only works with gmail)
-fromEmail = 'email@gmail.com'
+fromEmail = 'avrlav08@gmail.com'
 # You can generate an app password here to avoid storing your password in plain text
-# https://support.google.com/accounts/answer/185833?hl=en
+# No se utilizara el generador de codigos, la clave no sera ingresada en este documento
 fromEmailPassword = 'password'
 
 # Email you want to send the update to
-toEmail = 'email2@gmail.com'
+toEmail = 'avr08@hotmail.es'
 
 def sendEmail(image):
 	msgRoot = MIMEMultipart('related')
